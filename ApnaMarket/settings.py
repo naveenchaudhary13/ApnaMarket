@@ -91,21 +91,21 @@ WSGI_APPLICATION = 'ApnaMarket.wsgi.application'
 
 DATABASES = {
     #========================== Sqlite3 database ==========================
-    #  'default': {
-    #      'ENGINE': 'django.db.backends.sqlite3',
-    #      'NAME': BASE_DIR / 'db.sqlite3',
+     'default': {
+         'ENGINE': 'django.db.backends.sqlite3',
+         'NAME': BASE_DIR / 'db.sqlite3',
          
-    #  }
+     }
     #========================== Postgresql databse ==========================
-    'default': {
-       'ENGINE': 'django.db.backends.postgresql_psycopg2',
-       'NAME': 'defaultdb',
-       'USER': 'avnadmin',
-       'PASSWORD': 'AVNS_IjEmIGEIAGbrO5yobNT',
-       'HOST': 'apnamarket-apnamarket.a.aivencloud.com',
-       'PORT': '11040',
-       'CONN_MAX_AGE': 900,
-    }
+    # 'default': {
+    #    'ENGINE': 'django.db.backends.postgresql_psycopg2',
+    #    'NAME': 'defaultdb',
+    #    'USER': 'avnadmin',
+    #    'PASSWORD': 'AVNS_IjEmIGEIAGbrO5yobNT',
+    #    'HOST': 'apnamarket-apnamarket.a.aivencloud.com',
+    #    'PORT': '11040',
+    #    'CONN_MAX_AGE': 900,
+    # }
     # 'default': {
     #    'ENGINE': 'django.db.backends.postgresql_psycopg2',
     #    'NAME': 'postgres',
